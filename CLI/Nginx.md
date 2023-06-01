@@ -1,5 +1,8 @@
-# config check
+```Bash
+#config check
 sudo nginx -t
 
-#nginx restart and
+#nginx restart
 sudo systemctl restart nginx
+```
+
