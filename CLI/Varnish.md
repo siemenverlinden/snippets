@@ -1,3 +1,4 @@
+[[snippets]]
 ```Bash
 #login to varnish server
 
