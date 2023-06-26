@@ -1,3 +1,5 @@
+#kubernetes
+
 #see all env from project:
 kubectl config get-contexts
 
