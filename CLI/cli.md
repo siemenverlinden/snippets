@@ -16,3 +16,14 @@ rsync -havzP --stats user@remote.host:/path/to/copy /path/to/local/storage
 # -P                          same as --partial --progress
 
 ```
+## Convert .HEIC to jpeg
+```bash
+# install imagemagick
+brew install imagemagick
+
+# convert a single image
+magick convert foo.HEIC foo.jpg
+
+# bulk convert multiple images
+magick mogrify -monitor -format jpg *.HEIC
+```
